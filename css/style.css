@@ -42,3 +42,9 @@ button {
 button:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 769px) {
+    .card-body {
+        min-height: 50vh;
+    }
+}
